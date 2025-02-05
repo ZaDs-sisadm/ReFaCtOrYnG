@@ -10,8 +10,8 @@ def calculate(num1, num2, operator):
     else:
         return "Invalid operator"
 
-num1 = input("Enter first number: ")
-num2 = input("Enter second number: ")
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
 operator = input("Enter operator (+, -, *, /): ")
 
 result = calculate(num1, num2, operator)
