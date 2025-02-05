@@ -36,10 +36,10 @@
 4.  Введіть числа та оператор, слідуючи інструкціям на екрані.
 
 ## :clipboard: Приклад використання
-Enter first number: 10
-Enter second number: 5
-Enter operator (+, -, *, /): +
-Result: 15.0
+* Enter first number: 10
+* Enter second number: 5
+* Enter operator (+, -, *, /): +
+* Result: 15.0
 ## :handshake: Автор
 
 Цей проект був розроблений Зайцевим Денисом.
