@@ -13,8 +13,13 @@ def calculate(num1, num2, operator):
     else:
         return "Invalid operator"
 
-num1 = float(input("Enter first number: "))
-num2 = float(input("Enter second number: "))
+try:
+    num1 = float(input("Enter first number: "))
+    num2 = float(input("Enter second number: "))
+except ValueError:
+    print("Invalid input. Please enter a number.")
+    exit()
+    
 operator = input("Enter operator (+, -, *, /): ")
 
 result = calculate(num1, num2, operator)
