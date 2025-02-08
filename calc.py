@@ -1,17 +1,34 @@
 def calculate(num1, num2, operator):
     if operator == '+':
-        return num1 + num2
+        return summa_of_two_nums(num1, num2)
     elif operator == '-':
-        return num1 - num2
+        return subtraction_of_two_nums(num1, num2)
     elif operator == '*':
-        return num1 * num2
+        return multiplication_of_two_nums(num1, num2)
     elif operator == '/':
-        if num2 == 0:
-            return "Cannot divide by zero"
-        else:
-            return num1 / num2
+        return division_of_two_nums(num1, num2)
     else:
         return "Invalid operator"
+
+
+def division_of_two_nums(num1, num2):
+    if num2 == 0:
+        return "Cannot divide by zero"
+    else:
+        return num1 / num2
+
+
+def summa_of_two_nums(num1, num2):
+    return num1 + num2
+
+
+def subtraction_of_two_nums(num1, num2):
+    return num1 - num2
+
+
+def multiplication_of_two_nums(num1, num2):
+    return num1 * num2
+
 
 try:
     num1 = float(input("Enter first number: "))
